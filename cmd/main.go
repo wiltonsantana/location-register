@@ -5,8 +5,8 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/wiltonsantana/hpe-location/hpe-location-register/internal/config"
-	"github.com/wiltonsantana/hpe-location/hpe-location-register/pkg/logging"
+	"github.com/wiltonsantana/location-register/internal/config"
+	"github.com/wiltonsantana/location-register/pkg/logging"
 )
 
 func monitorSignals(sigs chan os.Signal, quit chan bool, logger logging.Logger) {
